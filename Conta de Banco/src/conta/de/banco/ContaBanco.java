@@ -13,8 +13,34 @@ public class ContaBanco {
     public int numConta;
     protected Character tipoConta;
     private Character dono;
-    private Real saldo;
-    private String status;
+    private float saldo;
+    private boolean status;
     
+    public void abrirConta(){
+        
+    }
+    public void fecharConta(){
+        
+    }
+    public void depositar(){
+        
+    }
+    public void sacar(){
+        
+    }
+    public void pagarMensal(){
+        
+    }
+    
+    public ContaBanco(){ //Constructor
+        saldo = 0;
+        status = false;
+        
+    }
+    public void setNumConta(n:int);
+    numConta = n;    
     
 }
+    
+}
+
